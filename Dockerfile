@@ -11,3 +11,6 @@ RUN mkdir -p "$APP_HOME"
 WORKDIR "$APP_HOME"
 EXPOSE 8010
 CMD ["bee", "run"]
+
+
+FROM golang:1.18
